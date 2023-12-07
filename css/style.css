@@ -45,10 +45,19 @@ main{
 
 }
 
-.row .column {
-    width: (100% / 3);
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row .column,.row-2 .column-2{
+    width: calc(100% / 3);
 
     float: left;
     
 
+}
+.column, .column-2{
+    padding: 20px;
 }
