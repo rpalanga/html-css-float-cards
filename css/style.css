@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* test */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 /* fine regola di reset */
@@ -13,9 +13,6 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.debug{
-    /* border: 1px solid red; */
-}
 
 .container{
     width: 70%;
@@ -42,7 +39,7 @@ p{
 
 main{
     
-   
+   padding: 30px;
 
 }
 
@@ -60,19 +57,28 @@ main{
 
 }
 .column, .column-2{
-    padding: 0px;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    filter: drop-shadow(0 0 0.75rem black);
+    
 }
 
 .card img{
-    width: 100px;
+    width: 130px;
     float: left;
     
 }
 h3 h4{
     display: inline-block;
+    margin-bottom: 4px;
     
 }
 .card{
     background-color: #0F0E16;
     color: white;
+}
+.dati-personali{
+    padding-left: 14px;
+    /* display: inline-block; */
 }
