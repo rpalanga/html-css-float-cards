@@ -67,11 +67,13 @@ main{
 .card img{
     width: 112px;
     float: left;
+    margin-right: 12px;
     
 }
 h3 h4{
     display: inline-block;
     margin-bottom: 4px;
+
     
 }
 .card{
@@ -86,9 +88,18 @@ h3 h4{
     /* display: inline-block; */
 
     text-align: justify;
+    padding-right: 14px;
     
 }
 
 a{
     color: #71B5CB;
+}
+
+h4{
+    font-weight: lighter;
+    padding-bottom: 8px;
+}
+h3{
+    padding-bottom: 8px;
 }
