@@ -65,7 +65,7 @@ main{
 }
 
 .card img{
-    width: 130px;
+    width: 112px;
     float: left;
     
 }
@@ -77,8 +77,18 @@ h3 h4{
 .card{
     background-color: #0F0E16;
     color: white;
+    /* inserimento ulteriori modifiche */
+    height: 112px;
+    width: 300px;
 }
 .dati-personali{
     padding-left: 14px;
     /* display: inline-block; */
+
+    text-align: justify;
+    
+}
+
+a{
+    color: #71B5CB;
 }
